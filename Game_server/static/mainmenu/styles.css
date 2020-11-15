@@ -1,0 +1,36 @@
+head{
+    color : #374dcc
+}
+body {
+    color : #5ae24e;
+    background-color : #fff;
+    background: #c7b39b url(images/bg.jpg) no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+}
+.up{
+    text-align:center;
+    color : #000000
+}
+.defindely{
+margin-left:200px;
+padding: 1rem 1.5rem;
+border-radius: 8px;
+display: inline-block;
+background-color: #1d3952;
+color : #84e2c3
+}
+.btn1 {
+margin-left:160px;
+display: inline-block; /* Строчно-блочный элемент */
+background: #1d3952; /* Серый цвет фона */
+color: #fff; /* Белый цвет текста */
+padding: 1rem 1.5rem; /* Поля вокруг текста */
+text-decoration: none; /* Убираем подчёркивание */
+border-radius: 8px; /* Скругляем уголки */
+   }
+.btnlogo {
+    vertical-align: middle;
+   }
