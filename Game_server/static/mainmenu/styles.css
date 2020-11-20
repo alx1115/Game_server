@@ -1,36 +1,25 @@
-head{
-    color : #374dcc
-}
+/*Задаём глобальные параметры*/
 body {
-    color : #5ae24e;
-    background-color : #fff;
-    background: #c7b39b url(images/bg.jpg) no-repeat;
-    -moz-background-size: cover;
-    -webkit-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover;
+    height: 100%;
+    margin: 0;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.up{
-    text-align:center;
-    color : #000000
+
+.play_ground{
+    border: 2px solid rgb(0, 255, 98);
+    align-items:"center";
 }
-.defindely{
-margin-left:200px;
-padding: 1rem 1.5rem;
-border-radius: 8px;
-display: inline-block;
-background-color: #1d3952;
-color : #84e2c3
+
+.snake{
+    align-items:"center";
 }
-.btn1 {
-margin-left:160px;
-display: inline-block; /* Строчно-блочный элемент */
-background: #1d3952; /* Серый цвет фона */
-color: #fff; /* Белый цвет текста */
-padding: 1rem 1.5rem; /* Поля вокруг текста */
-text-decoration: none; /* Убираем подчёркивание */
-border-radius: 8px; /* Скругляем уголки */
-   }
-.btnlogo {
-    vertical-align: middle;
-   }
+
+.icon-logo:before {
+    content: "\e60a";
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
