@@ -1,4 +1,3 @@
-/*Задаём глобальные параметры*/
 body {
     height: 100%;
     margin: 0;
@@ -20,6 +19,6 @@ body {
 .icon-logo:before {
     content: "\e60a";
 }
-*, *::before, *::after {
-    box-sizing: inherit;
+h1{
+    color:white;
 }
