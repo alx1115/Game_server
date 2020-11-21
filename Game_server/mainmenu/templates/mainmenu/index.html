@@ -55,7 +55,7 @@ Game_server
 
 {% block snake %}
   <img src={% static 'mainmenu/images/r.png' %} height="100" width="100" alt="Restart" class="img-circle"> 
-  <h1 color="white">-Restart  </h1>        
+  <h1 class="restart" color="white">- Restart</h1>        
   <canvas width="400" height="400" id="game" class="play_ground"></canvas>
   <script src={% static 'mainmenu/snake.js' %} class="snake"></script>
   <p><output name="games" class ="gameover"></output></p>
