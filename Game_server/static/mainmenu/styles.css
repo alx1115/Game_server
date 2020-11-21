@@ -19,6 +19,7 @@ body {
 .icon-logo:before {
     content: "\e60a";
 }
-h1{
+.restart{
     color:white;
+    padding-right: 90px;
 }
