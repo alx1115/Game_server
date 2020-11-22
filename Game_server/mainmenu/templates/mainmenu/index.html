@@ -9,7 +9,7 @@ Game_server
 {% block head %}
   <nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           <img src={% static 'mainmenu/images/logo.jpg' %} height="40" width="40">
         </a>
         <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
@@ -29,7 +29,7 @@ Game_server
 {% endblock %}
 
 {% block snake %}
-<a class="registration btn btn-secondary-outline btn-snake" href = "/registration">Registrate</a>
-<a class="login btn btn-secondary-outline btn-snake" href = "/login">Login</a>   
+<a class="registration btn btn-secondary-outline btn-snake" href = "/registration">Registrate</a>   
 <a class="btn btn-secondary-outline btn-snake" href="/snake" aria-haspopup="true" aria-expanded="false">Snake</a>
+<a class="login btn btn-secondary-outline btn-snake" href = "/login">Login</a>
 {% endblock %}
