@@ -7,12 +7,16 @@ Game_server
 {% endblock %}
 
 {% block head %}
-<nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
+  <nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
       <div class="container">
+<<<<<<< HEAD
         <a>
           <button style="color:#0000ff", class="registration">Log in/Registrate</button>
         </a>
         <a class="navbar-brand" href="#">
+=======
+        <a class="navbar-brand" href="/">
+>>>>>>> f25b6f7bf7925e236c5e3f5fe94a751b6a019f75
           <img src={% static 'mainmenu/images/logo.jpg' %} height="40" width="40">
         </a>
         <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
@@ -21,8 +25,8 @@ Game_server
               <a class="nav-link" href="https://github.com/alx1115/Game_server" target="_blank">GitHub</a>
             </li>
             <li class="nav-item dropdown hidden-sm-down textselect-off">
-              <a class="nav-link dropdown-toggle nav-dropdown-user" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src={% static 'mainmenu/images/logo.jpg' %} height="40" width="40" alt="Avatar" class="img-circle">
+              <a class="nav-link dropdown-toggle nav-dropdown-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src={% static 'mainmenu/images/snake_logo.jpg' %} height="40" width="40" alt="Avatar" class="img-circle">
               </a>
             </li>
           </ul>
@@ -32,9 +36,5 @@ Game_server
 {% endblock %}
 
 {% block snake %}
-  <img src={% static 'mainmenu/images/r.png' %} height="100" width="100" alt="Restart" class="img-circle"> 
-  <h1 class="restart" color="white">- Restart</h1>        
-  <canvas width="400" height="400" id="game" class="play_ground"></canvas>
-  <script src={% static 'mainmenu/snake.js' %} class="snake"></script>
-  <p><output name="games" class ="gameover"></output></p>
+<a class="btn btn-secondary-outline btn-snake" href="/snake" aria-haspopup="true" aria-expanded="false">Snake</a>
 {% endblock %}

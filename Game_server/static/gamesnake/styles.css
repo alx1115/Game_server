@@ -1,7 +1,7 @@
 body {
     height: 100%;
     margin: 0;
-    background: black;
+    background: rgb(77, 62, 62);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,19 +15,11 @@ body {
 .snake{
     align-items:"center";
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> f25b6f7bf7925e236c5e3f5fe94a751b6a019f75
+.icon-logo:before {
+    content: "\e60a";
+}
 .restart{
     color:white;
-    padding-right: 30px;
-}
-.registration{
-    margin-left: 50px;
-    margin-top:20px;
-    color:red;
-}
-.nav-link{
-    padding-bottom: 100px;
+    padding-right: 90px;
 }
