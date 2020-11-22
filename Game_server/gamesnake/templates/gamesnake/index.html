@@ -28,11 +28,11 @@ Game_server
     </nav>
 {% endblock %}
 
-{% block snake %}
-<div class='hot-keys'>
-  <h1 class="restart" color="white"><img src={% static 'gamesnake/images/r.png' %} height="100" width="100" alt="Restart" class="img-circle">- Restart</h1><br>   
-  <h1 class="wasd" color="white"><img src={% static 'gamesnake/images/wasd.png' %} alt="Restart" class="img-circle">w(up) a(left) </h1>      
-</div>  
+{% block snake %}  
   <canvas width="400" height="400" id="game" class="play_ground"></canvas>
   <script src={% static 'gamesnake/snake.js' %} class="snake"></script>
+  <div class='hot-keys'>
+  <h1 class="restart" color="white"><img src={% static 'gamesnake/images/r.png' %} height="100" width="100" alt="Restart" class="img-circle">- Restart</h1><br>   
+  <h1 class="wasd" color="white"><img src={% static 'gamesnake/images/wasd.png' %} alt="Restart" class="img-circle">w(up) a(left) s(down) d(right) </h1>      
+</div>
 {% endblock %}

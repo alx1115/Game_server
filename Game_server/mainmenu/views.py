@@ -6,7 +6,6 @@ def index(request):
     mainmenu = Mainmenu.objects.all()
     return render(request, 'mainmenu/index.html', {'mainmenu':mainmenu})
 
-
 def register(request):
     mainmenu = Mainmenu.objects.all()
     return render(request, 'mainmenu/registration.html', {'mainmenu':mainmenu})
