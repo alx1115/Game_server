@@ -15,8 +15,19 @@ body {
 .snake{
     align-items:"center";
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> f25b6f7bf7925e236c5e3f5fe94a751b6a019f75
 .restart{
     color:white;
-    padding-right: 90px;
+    padding-right: 30px;
+}
+.registration{
+    margin-left: 50px;
+    margin-top:20px;
+    color:red;
+}
+.nav-link{
+    padding-bottom: 100px;
 }
