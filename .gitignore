@@ -1,1 +1,4 @@
 /venv
+/Game_server/gamesnake/__pycache__
+/Game_server/mainmenu/__pycache__
+/Game_server/Game_server/__pycache__
