@@ -1,0 +1,36 @@
+{% extends 'gamesnake/base.html' %}
+
+{% load static %}
+
+{% block title %}
+Game_server
+{% endblock %}
+
+{% block head %}
+<nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src={% static 'gamesnake/images/logo.jpg' %} height="40" width="40">
+        </a>
+        <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
+          <ul class="nav navbar-nav pull-xs-right">
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="https://github.com/alx1115/Game_server" target="_blank">GitHub</a>
+            </li>
+            <li class="nav-item dropdown hidden-sm-down textselect-off">
+              <a class="nav-link dropdown-toggle nav-dropdown-user" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src={% static 'mainmenu/images/logo.jpg' %} height="40" width="40" alt="Avatar" class="img-circle">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+{% endblock %}
+
+{% block snake %}
+  <img src={% static 'gamesnake/images/r.png' %} height="100" width="100" alt="Restart" class="img-circle"> 
+  <h1 class="restart" color="white">- Restart</h1>        
+  <canvas width="400" height="400" id="game" class="play_ground"></canvas>
+  <script src={% static 'gamesnake/snake.js' %} class="snake"></script>
+{% endblock %}
